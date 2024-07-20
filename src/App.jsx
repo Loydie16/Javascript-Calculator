@@ -23,7 +23,7 @@ function App() {
       setDisplay((prev) => (prev === "0" ? num : prev + num));
       setExpression((prev) => (prev === "0" ? num : prev + num));
     } else {
-      setDisplay(  num);
+      setDisplay(num);
       setExpression(expression + num);
     }
     setLastKey(num);
@@ -229,9 +229,7 @@ function App() {
           {" "}
           <h1 className="text-md">Designed and Coded By</h1>
           <p className="text-sm text-[#00264d]">
-            <a href="https://github.com/Mohammad-Alaa-Fakhri">
-              Jon Loyd Talagtag
-            </a>
+            <a href="https://github.com/Loydie16">Jon Loyd Talagtag</a>
           </p>
         </div>
       </main>
